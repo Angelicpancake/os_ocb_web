@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* home page => page1*/
+.page2 {
+    background-color: #452E3C;
+    width: 100%;
+    height: 90vh; /*screen size*/
+
+    display: flex;
+    flex-direction:column;
+}
+
