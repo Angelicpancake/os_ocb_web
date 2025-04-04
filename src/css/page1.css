@@ -34,7 +34,7 @@
 .page1 .teamB
 {
     width: auto;
-    height: 65px;
+    height: 60px;
 }
 
 /*title styling*/
@@ -44,8 +44,8 @@
     margin-top: 160px;
 }
 .title1 .home {
-    width: 490px;
-    height: 490px;
+    width: 470px;
+    height: 470px;
 }
 
 .title1 .titleA {
@@ -64,10 +64,10 @@
 
 .title2 .titleA {
     height: auto;
-    width: 700px;
+    width: 670px;
     position: relative;
     left: 295px;
-    top: -280px;
+    top: -270px;
 }
 
 

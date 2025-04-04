@@ -3,6 +3,26 @@
     padding: 0;
     
 }
+/*
+   <!--page2-->
+    <div class="page2">
+        <div class="deco">
+            <img src="../assets/flower1.png" class="flower1">
+            <img src="../assets/line1.png" class="line1">
+        </div>
+
+        <div class="title">
+            <img src="../assets/titlea.png" class="titleA">
+        </div>
+
+        <div class="projects">
+            <div class="projectA">
+                <img src="../assets//project1.png" class="project1">
+                <img src="../assets/view.png" class="view1">
+            </div>
+        </div>
+    </div>
+*/
 
 /* home page => page1*/
 .page2 {
@@ -14,3 +34,47 @@
     flex-direction:column;
 }
 
+.page2 .deco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page2 .deco .flower1 {
+    height: 240px;
+    margin-top: -110px;
+}
+
+.page2 .deco .line1 {
+    width: 500px;
+    height: 140px;
+    margin-top: 30px;
+}
+
+.page2 .title .titleA{
+    margin-left: 31;
+    height: 47px;
+    margin-left: 300px
+}
+
+.page2 .projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.page2 .projects .project1 {
+    height: 515px;
+    width: auto;
+    margin-left: 150px;
+}
+
+.page2 .projects .projectA .view1 {
+    height: 60px;
+    width: 260px;
+    margin-left: -370px;
+    position: relative;
+    top: -30px;
+    
+}
