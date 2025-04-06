@@ -1,8 +1,3 @@
-/*          <div class="nav-buttons">
-                <img src="../assets/about.png" class="aboutB">
-                <img src="../assets/projects.png" class="projectsB">
-                <img src="../assets/team.png" class="teamB">
-            </div>*/
 
 //scroll functionality
 document.getElementById("projectsB").addEventListener("click", function() {
