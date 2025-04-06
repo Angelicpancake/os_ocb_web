@@ -7,7 +7,7 @@
 .slide-in-on-scroll {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 1.3s ease-out, transform 0.8s ease-out;
+  transition: opacity 1.5s ease-out, transform 0.8s ease-out;
 }
 
 .fade-in-on-scroll.visible,
