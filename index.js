@@ -21,11 +21,11 @@ const observer = new IntersectionObserver((entries) => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
         // Optional: Stop observing after it's visible
-        observer.unobserve(entry.target);
+        // observer.unobserve(entry.target);
       }
-      else {
-    //  entry.target.classList.remove('visible');
-      }
+     //  else {
+     // entry.target.classList.remove('visible');
+     //  }
     });
   }, {
     threshold: 0.15 // Trigger when 10% of element is visible

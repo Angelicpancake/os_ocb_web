@@ -17,9 +17,9 @@
     <div class="page1 fade-in-on-scroll">
         <header class="nav">
             <div class="nav-buttons">
-                <img src="./assets/about.png" class="aboutB" id="aboutB">
-                <img src="./assets/projects.png" class="projectsB" id="projectsB">
-                <img src="./assets/team.png" class="teamB" id="teamB">
+                <img src="./assets/about.png" class="aboutB" id="aboutB" draggable="false">
+                <img src="./assets/projects.png" class="projectsB" id="projectsB" draggable="false">
+                <img src="./assets/team.png" class="teamB" id="teamB" draggable="false">
             </div>
 
         </header>
@@ -29,8 +29,8 @@
         <div class="title1">
            <!-- <img src="../assets/title1.png" class="titleA">
             <img src="../assets/title2.png" class="titleB">-->
-            <img src="./assets/ocbtitle.png" class="titleA" id="titleA">
-            <img src="./assets/home.png" class="home" id="home">
+            <img src="./assets/ocbtitle.png" class="titleA" id="titleA" draggable="false">
+            <img src="./assets/home.png" class="home" id="home" draggable="false">
         </div>
 
        <!-- <div class="title2">
@@ -41,39 +41,48 @@
     <!--page2-->
     <div class="page2 fade-in-on-scroll" id="page2">
         <div class="deco">
-            <img src="./assets/flower1.png" class="flower1">
-            <img src="./assets/line1.png" class="line1">
+            <img src="./assets/flower1.png" class="flower1" draggable="false">
+            <img src="./assets/line1.png" class="line1" draggable="false">
         </div>
 
         <div class="title">
-            <img src="./assets/titlea.png" class="titleA">
+            <img src="./assets/titlea.png" class="titleA" draggable="false">
         </div>
 
-        <div class="projects">
+<!--         <div class="projects"> -->
             <div class="projectA">
-                <img src="./assets//project1.png" class="project1">
-                <img src="./assets/project2.png" class="project2">
+
+              <div id="itadaki" class="projects">
+                <img src="./assets//project1.png" draggable="false">
+                <input type="button" value="VIEW" id="itadakiButton">
+              </div>
+
+              <div id="suika" class="projects">
+                <img src="./assets/project2.png" draggable="false">
+                <input type="button" value="VIEW" id="suikaButton">
+              </div>
+
             </div>
 
-            <div class="views" id="view">
-                <img src="./assets/view.png" class="view view1">
-                <img src="./assets/view.png" class="view view2">
-            </div>
-
-        </div>
+            <!-- <div class="views" id="view"> -->
+            <!--     <img src="./assets/view.png" class="view view1" draggable="false"> -->
+            <!--     <img src="./assets/view.png" class="view view2" draggable="false"> -->
+            <!-- </div> -->
+        <!---->
+        <!-- </div> -->
     </div>
 
     <div class="page4 fade-in-on-scroll">
         <div class="deco">
-            <img src="./assets/cat.png" class="cat">
+            <img src="./assets/cat.png" class="cat" draggable="false">
         </div>
 
         <div class="title">
-            <img src="./assets//valuestitle.png" class="titleA">
+            <img src="./assets//valuestitle.png" class="titleA" draggable="false">
         </div>
 
         <div class="values">
-            <img src="./assets/values.png" class="valuesA">
+            <img src="./assets/values.png" class="valuesA" draggable="false">
         </div>
     </div>
 
@@ -81,25 +90,25 @@
     <!--page3-->
     <div class="page3 fade-in-on-scroll" id="page3">
         <div class="deco">
-            <img src="./assets/line2.png" class="line2">
-            <img src="./assets/flower2.png" class="flower2">
+            <img src="./assets/line2.png" class="line2" draggable="false">
+            <img src="./assets/flower2.png" class="flower2" draggable="false">
         </div>
 
         <div class="title">
-            <img src="./assets/meetTeam.png" class="titleA">
+            <img src="./assets/meetTeam.png" class="titleA" draggable="false">
         </div>
             
         <div class="members">
 
           <div id="joshua" class="member">
-            <img class="memberImg" src="./assets/goon.png" alt="goon">
+            <img class="memberImg" src="./assets/goon.png" alt="goon" draggable="false">
             <div class="memberContent">
               <h1>Joshua Ren</h1>
             </div>
           </div>
 
          <div id="sigma" class="member">
-            <img class="memberImg" src="./assets/sigma.png" alt="goon">
+            <img class="memberImg" src="./assets/sigma.png" alt="goon" draggable="false">
             <div class="memberContent">
               <h1>Sigma</h1>
             </div>
@@ -114,6 +123,7 @@
     </div>
 
     <script src="./index.js"></script>
+    <script src="./src/scripts/page2.js"></script>
 </body>
     
 </html>

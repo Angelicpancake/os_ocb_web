@@ -1,4 +1,4 @@
-* {
+ {
     margin: 0;
     padding: 0;
 }
@@ -21,7 +21,7 @@
     background-color: #452E3C;
     width: 100%;
     /*height: 90vh; /*screen size*/
-    min-height: 95vh;
+    min-height: 60vh;
 
     display: flex;
     flex-direction:column;
@@ -41,7 +41,6 @@
 .page2 .deco .flower1 {
     height: 240px;
     margin-top: -110px;
-
 }
 
 .page2 .deco .line1 {
@@ -55,39 +54,80 @@
     margin-left: 100px;
 }
 
-.page2 .projects .projectA {
-    margin-top: 55px;
+.projectA{
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
 }
 
-.page2 .projects .project1 {
-    height: 450px;
-    width: auto;
-    margin-left: 90px;
+.projects{
+  transform: scale(0.7);
+  display: flex;
+  margin: 25px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.page2 .projects .project2 {
-    height: 450px;
-    width: auto;
-    margin-left: 90px;    
+.projects input{
+  height: 100px;
+  width: 500px;
+  position: absolute;
+  bottom: 60px;
+  border: 5px solid #452E3C;
+  border-radius: 75px;
+  background-color: #452E3C;
+  font-size: 45px;
+  font-family: "Koulen";
+  color: #D25366;
+  transition: 0.4s;
 }
 
-.page2 .projects .views {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 260px;
-    margin-top: -80px;
+.projects input:hover{
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
-.page2 .projects .view {
-    height: 60px;
-    width: 260px;
-    top: -30px;
+.projects input:active{
+  filter: brightness(0.65);
 }
 
-.page2 .projects .views .view1 {
-    margin-left: 156px;
-}
+/* .page2 .projects .projectA { */
+/*     margin-top: 55px; */
+/*     margin-bottom: 55px; */
+/*     display: flex; */
+/*     flex-direction: row; */
+/*     overflow: auto; */
+/* } */
+
+/* .page2 .projects .project1 { */
+/*     height: 450px; */
+/*     width: auto; */
+/*     margin-left: 90px; */
+/* } */
+/**/
+/* .page2 .projects .project2 { */
+/*     height: 450px; */
+/*     width: auto; */
+/*     margin-left: 90px;     */
+/* } */
+/**/
+/* .page2 .projects .views { */
+/*     display: flex; */
+/*     flex-direction: row; */
+/*     justify-content: flex-start; */
+/*     gap: 260px; */
+/*     margin-top: -80px; */
+/* } */
+/**/
+/* .page2 .projects .view { */
+/*     height: 60px; */
+/*     width: 260px; */
+/*     top: -30px; */
+/* } */
+/**/
+/* .page2 .projects .views .view1 { */
+/*     margin-left: 156px; */
+/* } */
 
 @media (max-width: 600px) {
 }
