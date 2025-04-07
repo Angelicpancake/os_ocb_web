@@ -7,7 +7,11 @@
     background-color: #452E3C;
     width: 100%;
     /*height: 90vh; /*screen size*/
+<<<<<<< Updated upstream
     min-height: 50vh;
+=======
+    min-height: 80vh;
+>>>>>>> Stashed changes
 
     display: flex;
     flex-direction:column;
