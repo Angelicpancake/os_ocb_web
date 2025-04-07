@@ -7,7 +7,7 @@
     background-color: #C08886;
     width: 100%;
     /*height: 90vh; /*screen size*/
-    min-height: 60vh;
+    min-height: 120vh;
 
     display: flex;
     flex-direction:column;
@@ -42,37 +42,20 @@
 }
 
 .members{
-  /* width: 300px; */
-  /* height: 300px; */
   display: flex;
-  flex-direction: column;
-  align-content: flex-start;
-  gap: 20px;
-  padding: 50px;
-  max-height: 700px;
-  flex-wrap: wrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-  /* width: max-content; */
-  /* justify-content: space-evenly; */
+  padding: 25px;
+  justify-content: space-evenly;
 }
 
 .member{
-  padding: 50px;
-  width: 240px;
-  height: 240px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .memberImg{
-  width: 220px;
-  height: 220px;
   background-color: #452E3C;
   border-style: solid;
-  border-width: 10px;
+  border-width: 25px;
   border-color: #452E3C;
   border-radius: 75px;
   transition: .25s;
@@ -80,9 +63,8 @@
 
 .memberContent{
   display:flex;
-  width: 240px;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   color: #452E3C;
   font-family: 'Konkhmer Sleokchher';
   background-color: #E8D6C5;
