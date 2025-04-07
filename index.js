@@ -1,4 +1,3 @@
-
 //scroll functionality
 document.getElementById("projectsB").addEventListener("click", function() {
     document.getElementById("page2").scrollIntoView({ behavior: "smooth" });

@@ -1,13 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-width: auto;          /* "auto" or "thin" */
     scrollbar-color: #d4a4c2 #452E3C;  /* thumb color, track color */
     
 }
 
 html {
+    /* user-select: none; */
     background-color: #452E3C;
+}
+
+img {
+  pointer-events: none;
 }
 
 /* home page => page1*/
